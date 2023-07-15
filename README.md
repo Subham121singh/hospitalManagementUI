@@ -4,9 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Clone this direcotry to local machine then run the below command to install the node modules before starting the application.
+### `npm install`
+
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` to run the frontend application
+
+Only loggedin Users can manage the patients for admitting and discharging
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
