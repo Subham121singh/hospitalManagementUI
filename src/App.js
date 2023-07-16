@@ -8,21 +8,22 @@ function App() {
   return (
     <Router>
       <div className="container mx-auto">
-        <nav className="py-4">
+        <nav className="py-4 flex justify-center">
           <ul className="flex space-x-4">
             <li>
-              <Link to="/signup" className="text-blue-500 hover:underline">
+              <Link
+                to="/signup"
+                className="text-blue-500 hover:underline border p-2 border-blue-600 rounded-lg"
+              >
                 Signup
               </Link>
             </li>
             <li>
-              <Link to="/login" className="text-blue-500 hover:underline">
+              <Link
+                to="/login"
+                className="text-blue-500 hover:underline border p-2 border-blue-600 rounded-lg"
+              >
                 Login
-              </Link>
-            </li>
-            <li>
-              <Link to="/dashboard" className="text-blue-500 hover:underline">
-                Dashboard
               </Link>
             </li>
           </ul>
